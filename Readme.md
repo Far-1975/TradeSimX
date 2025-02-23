@@ -1,12 +1,9 @@
-# TradeWave - A No-Code Algorithmic Trading Backtesting Platform 
+# TradeSimX - A No-Code Algorithmic Trading Backtesting Platform 
  A modern No-Code Trading Strategy Backtesting Platform that empowers traders to create Strategy, backtest, and optimize their trading strategies without writing a single line of code. 
  Powered by advanced AI analytics , ChatBot and real-time insights .
 
 
-### Solution Demo Video Link
-
-[Demo Video](https://www.youtube.com/watch?v=sSSDNEmsVww)
-[![Alt text](https://img.youtube.com/vi/sSSDNEmsVww/0.jpg)](https://www.youtube.com/watch?v=sSSDNEmsVww)
+### Solution Demo
 
 ## Features
 
@@ -117,12 +114,12 @@ The backend API will be available at `http://localhost:5000`
 5. Copy the key and add it to your backend `.env` file as `OPENAI_API_KEY`
 
 ## Team member
-- **Udit Jain** - [Udit Jain](https://github.com/UditJain2622004)
-- **Ankush** - [Ankush Kumar](https://github.com/ankush270)
-- **Ankur** - [Ankur](https://github.com/ankurpunia30)
-
+- **Syed Faisal**
+- **Sharath KM**
+- **Vidya R**
+- **Tanushree R** 
 ## Team Name
-- **The Big 3**
+- **Tech_Tacklers**
 
 
 

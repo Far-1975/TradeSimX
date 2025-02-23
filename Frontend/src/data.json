@@ -1,0 +1,381 @@
+{
+    "basic_metrics": {
+        "total_trades": 67,
+        "winning_trades": 19,
+        "losing_trades": 48,
+        "win_rate": 28.36,
+        "average_profit": 6.94,
+        "largest_win": 27.57,
+        "largest_loss": -16.92,
+        "average_loss": -4.49,
+        "total_return": -63.41
+    },
+    "streak_metrics": {
+        "max_winning_streak": 3,
+        "max_losing_streak": 10
+    },
+    "time_metrics": {
+        "monthly_metrics": {
+            "2024-03": {
+                "return": -44.81,
+                "trades": 25,
+                "win_rate": 0.24
+            },
+            "2024-04": {
+                "return": 0.57,
+                "trades": 1,
+                "win_rate": 1.0
+            },
+            "2024-09": {
+                "return": -5.23,
+                "trades": 2,
+                "win_rate": 0.5
+            },
+            "2024-11": {
+                "return": -19.17,
+                "trades": 29,
+                "win_rate": 0.31
+            },
+            "2024-12": {
+                "return": -14.88,
+                "trades": 10,
+                "win_rate": 0.2
+            }
+        },
+        "best_month": "2024-04",
+        "worst_month": "2024-03"
+    },
+    "trade_analysis": {
+        "trade_details": [
+            {
+                "entry_price": 0.0834,
+                "exit_price": 0.0791,
+                "profit_percentage": -5.09,
+                "entry_time": "2024-03-04 07:59:59.999",
+                "exit_time": "2024-03-04 08:59:59.999",
+                "trade_type": "loss",
+                "profit_size": "small_loss",
+                "trade_duration": "1h"
+            },
+            {
+                "entry_price": 0.0948,
+                "exit_price": 0.0963,
+                "profit_percentage": 1.56,
+                "entry_time": "2024-03-11 22:59:59.999",
+                "exit_time": "2024-03-11 23:59:59.999",
+                "trade_type": "win",
+                "profit_size": "small_win",
+                "trade_duration": "1d"
+            },
+            {
+                "entry_price": 0.1075,
+                "exit_price": 0.103,
+                "profit_percentage": -4.21,
+                "entry_time": "2024-03-12 01:59:59.999",
+                "exit_time": "2024-03-12 02:59:59.999",
+                "trade_type": "loss",
+                "profit_size": "small_loss",
+                "trade_duration": "1h"
+            },
+            {
+                "entry_price": 0.1076,
+                "exit_price": 0.1011,
+                "profit_percentage": -6.08,
+                "entry_time": "2024-03-12 07:59:59.999",
+                "exit_time": "2024-03-12 08:59:59.999",
+                "trade_type": "loss",
+                "profit_size": "small_loss",
+                "trade_duration": "2h"
+            },
+            {
+                "entry_price": 0.112,
+                "exit_price": 0.1196,
+                "profit_percentage": 6.81,
+                "entry_time": "2024-03-12 09:59:59.999",
+                "exit_time": "2024-03-12 10:59:59.999",
+                "trade_type": "win",
+                "profit_size": "small_win",
+                "trade_duration": "45m"
+            },
+            {
+                "entry_price": 0.1196,
+                "exit_price": 0.1108,
+                "profit_percentage": -7.37,
+                "entry_time": "2024-03-12 10:59:59.999",
+                "exit_time": "2024-03-12 11:59:59.999",
+                "trade_type": "loss",
+                "profit_size": "small_loss",
+                "trade_duration": "1h"
+            },
+            {
+                "entry_price": 0.118,
+                "exit_price": 0.1112,
+                "profit_percentage": -5.77,
+                "entry_time": "2024-03-12 14:59:59.999",
+                "exit_time": "2024-03-12 15:59:59.999",
+                "trade_type": "loss",
+                "profit_size": "small_loss",
+                "trade_duration": "3d"
+            },
+            {
+                "entry_price": 0.1111,
+                "exit_price": 0.1067,
+                "profit_percentage": -3.95,
+                "entry_time": "2024-03-12 17:59:59.999",
+                "exit_time": "2024-03-12 18:59:59.999",
+                "trade_type": "loss",
+                "profit_size": "small_loss",
+                "trade_duration": "2h"
+            },
+            {
+                "entry_price": 0.1128,
+                "exit_price": 0.1183,
+                "profit_percentage": 4.81,
+                "entry_time": "2024-03-12 23:59:59.999",
+                "exit_time": "2024-03-13 00:59:59.999",
+                "trade_type": "win",
+                "profit_size": "small_win",
+                "trade_duration": "30m"
+            },
+            {
+                "entry_price": 0.1285,
+                "exit_price": 0.1314,
+                "profit_percentage": 2.27,
+                "entry_time": "2024-03-13 04:59:59.999",
+                "exit_time": "2024-03-13 05:59:59.999",
+                "trade_type": "win",
+                "profit_size": "small_win",
+                "trade_duration": "4h"
+            },{
+                "entry_price": 0.152,
+                "exit_price": 0.1574,
+                "profit_percentage": 3.55,
+                "entry_time": "2024-03-28 20:59:59.999",
+                "exit_time": "2024-03-28 21:14:59.999",
+                "trade_type": "win",
+                "profit_size": "small_win",
+                "trade_duration": "15m"
+            },
+            {
+                "entry_price": 0.1623,
+                "exit_price": 0.1685,
+                "profit_percentage": 3.82,
+                "entry_time": "2024-03-29 03:59:59.999",
+                "exit_time": "2024-03-29 05:59:59.999",
+                "trade_type": "win",
+                "profit_size": "small_win",
+                "trade_duration": "2h"
+            },
+            {
+                "entry_price": 0.1435,
+                "exit_price": 0.1404,
+                "profit_percentage": -2.16,
+                "entry_time": "2024-03-29 10:59:59.999",
+                "exit_time": "2024-03-29 11:29:59.999",
+                "trade_type": "loss",
+                "profit_size": "small_loss",
+                "trade_duration": "30m"
+            },
+            {
+                "entry_price": 0.1458,
+                "exit_price": 0.1511,
+                "profit_percentage": 3.63,
+                "entry_time": "2024-03-30 01:59:59.999",
+                "exit_time": "2024-03-31 01:59:59.999",
+                "trade_type": "win",
+                "profit_size": "small_win",
+                "trade_duration": "1d"
+            },
+            {
+                "entry_price": 0.1357,
+                "exit_price": 0.1335,
+                "profit_percentage": -1.62,
+                "entry_time": "2024-04-01 06:59:59.999",
+                "exit_time": "2024-04-01 07:14:59.999",
+                "trade_type": "loss",
+                "profit_size": "small_loss",
+                "trade_duration": "15m"
+            },
+            {
+                "entry_price": 0.1489,
+                "exit_price": 0.1514,
+                "profit_percentage": 1.68,
+                "entry_time": "2024-04-01 12:59:59.999",
+                "exit_time": "2024-04-01 14:59:59.999",
+                "trade_type": "win",
+                "profit_size": "small_win",
+                "trade_duration": "2h"
+            },
+            {
+                "entry_price": 0.1587,
+                "exit_price": 0.156,
+                "profit_percentage": -1.7,
+                "entry_time": "2024-04-02 10:59:59.999",
+                "exit_time": "2024-04-02 11:29:59.999",
+                "trade_type": "loss",
+                "profit_size": "small_loss",
+                "trade_duration": "30m"
+            },
+            {
+                "entry_price": 0.147,
+                "exit_price": 0.1512,
+                "profit_percentage": 2.86,
+                "entry_time": "2024-04-02 16:59:59.999",
+                "exit_time": "2024-04-02 17:19:59.999",
+                "trade_type": "win",
+                "profit_size": "small_win",
+                "trade_duration": "20m"
+            },
+            {
+                "entry_price": 0.1654,
+                "exit_price": 0.1689,
+                "profit_percentage": 2.11,
+                "entry_time": "2024-04-03 08:59:59.999",
+                "exit_time": "2024-04-03 11:59:59.999",
+                "trade_type": "win",
+                "profit_size": "small_win",
+                "trade_duration": "3h"
+            },
+            {
+                "entry_price": 0.1552,
+                "exit_price": 0.153,
+                "profit_percentage": -1.42,
+                "entry_time": "2024-04-04 07:59:59.999",
+                "exit_time": "2024-04-04 08:44:59.999",
+                "trade_type": "loss",
+                "profit_size": "small_loss",
+                "trade_duration": "45m"
+            },
+            {
+                "entry_price": 0.1497,
+                "exit_price": 0.155,
+                "profit_percentage": 3.54,
+                "entry_time": "2024-04-05 02:59:59.999",
+                "exit_time": "2024-04-05 04:59:59.999",
+                "trade_type": "win",
+                "profit_size": "small_win",
+                "trade_duration": "2h"
+            },
+            {
+                "entry_price": 0.162,
+                "exit_price": 0.159,
+                "profit_percentage": -1.85,
+                "entry_time": "2024-04-05 11:59:59.999",
+                "exit_time": "2024-04-05 12:29:59.999",
+                "trade_type": "loss",
+                "profit_size": "small_loss",
+                "trade_duration": "30m"
+            },
+            {
+                "entry_price": 0.1538,
+                "exit_price": 0.1605,
+                "profit_percentage": 4.36,
+                "entry_time": "2024-04-06 05:59:59.999",
+                "exit_time": "2024-04-06 07:59:59.999",
+                "trade_type": "win",
+                "profit_size": "medium_win",
+                "trade_duration": "2h"
+            },
+            {
+                "entry_price": 0.1485,
+                "exit_price": 0.1513,
+                "profit_percentage": 1.89,
+                "entry_time": "2024-04-06 19:59:59.999",
+                "exit_time": "2024-04-06 20:59:59.999",
+                "trade_type": "win",
+                "profit_size": "small_win",
+                "trade_duration": "1h"
+            },
+            {
+                "entry_price": 0.165,
+                "exit_price": 0.1582,
+                "profit_percentage": -4.12,
+                "entry_time": "2024-04-07 03:59:59.999",
+                "exit_time": "2024-04-07 09:59:59.999",
+                "trade_type": "loss",
+                "profit_size": "medium_loss",
+                "trade_duration": "6h"
+            },
+            {
+                "entry_price": 0.1521,
+                "exit_price": 0.1498,
+                "profit_percentage": -1.51,
+                "entry_time": "2024-04-08 00:59:59.999",
+                "exit_time": "2024-04-08 01:14:59.999",
+                "trade_type": "loss",
+                "profit_size": "small_loss",
+                "trade_duration": "15m"
+            },
+            {
+                "entry_price": 0.1595,
+                "exit_price": 0.1659,
+                "profit_percentage": 4.01,
+                "entry_time": "2024-04-08 10:59:59.999",
+                "exit_time": "2024-04-08 14:59:59.999",
+                "trade_type": "win",
+                "profit_size": "medium_win",
+                "trade_duration": "4h"
+            },
+            {
+                "entry_price": 0.1472,
+                "exit_price": 0.145,
+                "profit_percentage": -1.49,
+                "entry_time": "2024-04-09 05:59:59.999",
+                "exit_time": "2024-04-09 07:29:59.999",
+                "trade_type": "loss",
+                "profit_size": "small_loss",
+                "trade_duration": "1.5h"
+            },
+            {
+                "entry_price": 0.1613,
+                "exit_price": 0.169,
+                "profit_percentage": 4.78,
+                "entry_time": "2024-04-09 15:59:59.999",
+                "exit_time": "2024-04-10 15:59:59.999",
+                "trade_type": "win",
+                "profit_size": "medium_win",
+                "trade_duration": "1d"
+            },
+            {
+                "entry_price": 0.1517,
+                "exit_price": 0.1469,
+                "profit_percentage": -3.17,
+                "entry_time": "2024-04-11 02:59:59.999",
+                "exit_time": "2024-04-11 08:59:59.999",
+                "trade_type": "loss",
+                "profit_size": "medium_loss",
+                "trade_duration": "6h"
+            },{
+                "entry_price": 0.0721,
+                "exit_price": 0.0725,
+                "profit_percentage": 0.57,
+                "entry_time": "2024-04-13 22:59:59.999",
+                "exit_time": "2024-04-13 23:59:59.999",
+                "trade_type": "win",
+                "profit_size": "small_win",
+                "trade_duration": "37m"
+            },
+            {
+                "entry_price": 0.0473,
+                "exit_price": 0.0477,
+                "profit_percentage": 0.68,
+                "entry_time": "2024-09-22 15:59:59.999",
+                "exit_time": "2024-09-22 16:59:59.999",
+                "trade_type": "win",
+                "profit_size": "small_win",
+                "trade_duration": "2h 45m"
+            }
+        ],
+        "pattern_metrics": {
+            "profit_distribution": {
+                "large_wins": 2,
+                "medium_wins": 2,
+                "small_wins": 15,
+                "small_losses": 45,
+                "medium_losses": 3,
+                "large_losses": 0
+            }
+        }
+    },
+    "report_generated": "2025-01-11 Jan:22:53"
+}

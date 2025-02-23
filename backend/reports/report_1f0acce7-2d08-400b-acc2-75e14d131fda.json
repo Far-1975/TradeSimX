@@ -1,0 +1,26 @@
+{
+    "strategy_data": {
+        "symbol": "DOGEUSDT",
+        "total_trades": 361,
+        "winning_trades": 226,
+        "losing_trades": 135,
+        "win_rate": 62.6,
+        "average_profit": 0.22,
+        "average_loss": -2.28,
+        "risk_reward_ratio": 0.09649122807017545,
+        "profit": 88.31,
+        "max_drawdown": 10.51
+    },
+    "insights": [
+        "1. Performance: The win rate of 62.6% indicates a generally robust trading strategy, but the reliance on small wins suggests there may be an opportunity to identify conditions for larger gains.",
+        "2. Risk: The largest loss of -10.51% and an average loss of -2.28% imply that risk management measures need enhancement to limit the impact of larger drawdowns.",
+        "3. Improvements: Implementing a tiered profit-taking strategy could help in converting some small wins into medium or large wins, enhancing overall profitability.",
+        "4. Market: The absence of large or medium wins indicates that the current strategy may not be fully adapted to trending or volatile market conditions; re-evaluating market selection and entry criteria may provide better alignment."
+    ],
+    "model_info": {
+        "model": "llama-3.1-70b-versatile",
+        "provider": "Groq",
+        "timestamp": "2025-01-12T11:36:06.613415",
+        "temperature": 0.7
+    }
+}

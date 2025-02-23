@@ -1,0 +1,87 @@
+{
+    "ticker":"clv",
+    "start_date":"2024-01-01",
+    "end_date":"2025-01-02",
+    "interval":"1h",
+    "indicators":["sma_20","rsi","candle_return"],
+    "custom_indicators": [
+        {
+            "name": "price_spread",
+            "op1": "high",
+            "oper": "-",
+            "op2": "low"
+        }
+    ],
+    "entry_conditions":[[{
+        "lhs":"sma_20",
+        "operator":">",
+        "rhs":{
+            "type":"number_input",
+            "indicator":"rsi" ,
+            "value":1.01,
+            "sign":"None"
+        }
+}],[{
+    "lhs":"candle_return",
+    "operator":">",
+    "rhs":{
+        "type":"number_input",
+        "indicator":"string" ,
+        "value":5,
+        "sign":"%"
+    }
+}],
+[{
+    "lhs": "price_spread",
+    "operator": ">",
+    "rhs": {
+        "type": "number_input",
+        "value": 100
+    }
+}]],
+
+    "exit_conditions":[[{
+        "lhs":"sma_20",
+        "operator":"<",
+        "rhs":{
+            "type":"number_input",
+            "indicator":"string" ,
+            "value":1,
+            "sign":"None"
+        }
+}]],
+"risk_management": {
+        "stop_loss": {
+            "type": "fixed",
+            "value": 2,
+            "sign": "%"
+        },
+        "take_profit": {
+            "type": "fixed",
+            "value": 5,
+            "sign": "%"
+        },
+        "trailing_stop_loss": {
+            "type": "trailing",
+            "activation": {
+                "value": 2,
+                "sign": "%"
+            },
+            "callback": {
+                "value": 1,
+                "sign": "%"
+            }
+        },
+        "trailing_take_profit": {
+            "type": "trailing",
+            "activation": {
+                "value": 3,
+                "sign": "%"
+            },
+            "callback": {
+                "value": 1.5,
+                "sign": "%"
+            }
+        }
+    }
+}
